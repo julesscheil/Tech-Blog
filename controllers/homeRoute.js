@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
       const blogs = blogData.map((blog) => blog.get({ plain: true }));
   
       // Pass serialized data and session flag into template
-      res.status(200).json(blogs)
+     res.render("dashboard", {blogs})
     } catch (err) {
       res.status(500).json(err);
     }
