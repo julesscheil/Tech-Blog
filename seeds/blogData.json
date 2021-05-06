@@ -1,17 +1,20 @@
 [
     {
         "title": "Test Post 1",
-        "blog_text": "Here is the body of the blog",
-        "date_created": "2021-04-28 00:00:00"
+        "blog_text": "Here is the body of the blog 1",
+        "date_created": "2021-04-28 00:00:00",
+        "user_id":"1"
     },
     {
         "title": "Test Post 2",
-        "blog_text": "Here is the body of the blog",
-        "date_created": "2021-04-29 00:00:00"
+        "blog_text": "Here is the body of the blog 2",
+        "date_created": "2021-04-29 00:00:00",
+        "user_id":"2"
     },
     {
         "title": "Test Post 3",
-        "blog_text": "Here is the body of the blog",
-        "date_created": "2021-04-30 00:00:00"
+        "blog_text": "Here is the body of the blog 3",
+        "date_created": "2021-04-30 00:00:00",
+        "user_id":"3"
     }
 ]

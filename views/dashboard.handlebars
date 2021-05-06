@@ -1,4 +1,19 @@
-{{#each blogs as |blog|}}
-<div>{{blog.title}}</div>
-<div>{{blog.blog_text}}</div>
-{{/each}}
+<div class="d-flex justify-content-center flex-column align-items-center">
+  {{#each blogs as |blog|}}
+  <div class="card w-75">
+
+    <div class="card-header">
+      <div class="pull-left">
+        {{blog.title}} 
+      </div>
+      <div class="pull-right">
+        <p class="text-right">Posted by: {{blog.user.username}} on {{format_date blog.date_created}}</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{blog.blog_text}}</p>
+    </div>
+  </div>
+  {{/each}}
+</div>
